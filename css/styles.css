@@ -21,3 +21,33 @@
   width: 300px;
   height: auto;
 }
+
+body {
+  background: rgb(69,142,205);
+  background: linear-gradient(45deg, rgba(69,142,205,1) 15%, rgba(71,198,54,1) 50%, rgba(245,59,59,1) 78%);
+}
+
+h2 {
+  text-decoration: underline rgb(123, 216, 240);
+  margin: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.jumbotron h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+}
+
+button {
+  margin: 10px;
+}
+
+.form-check {
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+}
