@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Celebrity Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Please fill out the form to find your perfect celebrity match.</h1>
+    <form id="questions">
+      <h2>What medium do you watch your celebrity through?</h2>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="occupation" value="film">
+        <label class="form-check-label">Film</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="occupation" value="television">
+        <label class="form-check-label">Television</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="occupation" value="music">
+        <label class="form-check-label">Music</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="occupation" value="sports">
+        <label class="form-check-label">Sports</label>
+      </div>
+
+      <h2>What is your favorite place to relax?</h2>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="relax" value="film">
+        <label class="form-check-label">At home</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="relax" value="television">
+        <label class="form-check-label">At the beach</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="relax" value="music">
+        <label class="form-check-label">In the forest</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="relax" value="sports">
+        <label class="form-check-label">I don't like to relax</label>
+      </div>
+      
+      <h2>What is your favorite style of cuisine?</h2>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="food" value="film">
+        <label class="form-check-label">French food</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="food" value="television">
+        <label class="form-check-label">Japanese food</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="food" value="music">
+        <label class="form-check-label">Mexican food</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="food" value="sports">
+        <label class="form-check-label">Are Burgers American?</label>
+      </div>
+
+      <h2>What is your favorite film/TV genre?</h2>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="genre" value="film">
+        <label class="form-check-label">Romance</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="genre" value="television">
+        <label class="form-check-label">Horror</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="genre" value="music">
+        <label class="form-check-label">Action</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="genre" value="sports">
+        <label class="form-check-label">Comedy</label>
+      </div>
+      <button type="submit" class="btn">See your results</button>
+    </form>
+    <img class="result1" src="https://i.imgur.com/4cuTlzN.jpg" alt="Danny Divito lookin mad sweaty">
+
+    <img class="result2" src="data:image/jpeg;base64,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" alt="Danny Divito Dorito"> 
+
+    <img class="result3" src="https://i1.wp.com/nypost.com/wp-content/uploads/sites/2/2019/05/danny-devito.jpg?quality=80&strip=all&ssl=1" alt="Danny Divito spooky">
+
+    <img class="result4" src="https://pbs.twimg.com/profile_images/1245453231070818308/13LhKvV4.jpg" alt="Danny Divito the art critique">
+
+    </div>
+
+  </div>
+</body>
+</html>
