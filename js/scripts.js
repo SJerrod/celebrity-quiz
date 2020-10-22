@@ -1,3 +1,11 @@
+// Business logic
+
+function totalValue (number1, number2, number3, number4) {
+  return parseInt(number1) + parseInt(number2) + parseInt(number3) + parseInt(number4)
+}
+
+
+// User Logic
 $(document).ready(function() {
   $("#questions").submit(function(event) {
     event.preventDefault();
@@ -10,9 +18,7 @@ $(document).ready(function() {
 
     let genre = $("input[name='genre']:checked").val();
 
-    console.log(occupation);
-    console.log(relax);
-    console.log(food);
-    console.log(genre);
+    let total = totalValue (occupation, relax, food, genre);
+    console.log(total);
   });
 });
